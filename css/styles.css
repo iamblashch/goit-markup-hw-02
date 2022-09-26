@@ -1,0 +1,202 @@
+:root{
+    --primary-background-color:#2F303A;
+    --background-color: #F5F5F5;
+    --primary-color-text:#757575;
+    --button-color:#2196F3;
+    --title-color:#212121;
+    --whrite:#ffffff;
+    --black:#000000;
+    --background-color-team:#F5F4FA;
+
+
+}
+body{
+    font-family: 'Roboto,',sans-serif;
+    color:var(--primary-color-text);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+.list{
+    list-style: none;
+}
+/* Шапка */
+.logo{
+    background-color: var(--whrite);
+}
+/* Лого */
+.shapka-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color:var(--button-color);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.shapka{
+    color:var(--black);
+}
+/* Сайт навігація */
+.site-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--button-color);
+}
+
+/* Регестрація */
+.auth-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-color-text);
+    text-decoration: none;
+    cursor: pointer;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: var(--button-color);
+}
+
+/* Герой */
+.hero{
+    background-color: var(--primary-background-color);
+}
+.hero .first-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--whrite);
+}
+    /* Замовити послугу */
+.button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--whrite);
+    background-color: var(--button-color);
+    cursor: pointer;
+}    
+/* Особливості */
+.section{
+    background-color: var(--background-color);
+}
+.section .peculiarites-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.peculiarities{
+    font-size: 0%;
+}
+/* Особливості Наша команда */
+.section-team{
+    color: var(--background-color-team);
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+
+}
+/* Наша команда */
+.name-developer{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:var(--title-color)
+}
+.list .professions {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:var(--primary-color-text)
+}
+/* Футер */
+.logo-footer{
+    background-color: var(--primary-background-color);
+}
+
+.adress{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--whrite);
+    text-decoration: none;
+    font-style: normal;
+}
+.info{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+/* Портфоліо */
+.portfolio{
+    background-color: var(--background-color);
+}
+.portfolio-title{
+    font-size: 0;
+}
+.filter-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color:var(--title-color)
+}
+.filter-button:hover,
+.filter-button:focus{
+    background-color: var(--button-color);
+    color:var(--whrite);
+}
+.portfolio .filter-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--title-color)
+}
+.portfolio .list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color:var(--primary-color-text)
+}
+.shapka-footer{
+    color: var(--whrite);
+}
+.adress:hover,
+.adress:focus{
+    color: var(--button-color);
+}
+.info:hover,
+.info:focus{
+    color: var(--button-color);
+}
